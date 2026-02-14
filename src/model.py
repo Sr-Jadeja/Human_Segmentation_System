@@ -23,7 +23,7 @@ def resize_like(x, ref):
     return layers.Resizing(ref.shape[1], ref.shape[2], interpolation="bilinear")(x)
 
 
-def build_unetpp():
+def build_model():
     inputs = layers.Input((IMG_SIZE, IMG_SIZE, IMG_CHANNELS))
 
     # -----------------------------

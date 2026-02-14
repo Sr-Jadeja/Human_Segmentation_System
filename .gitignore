@@ -4,7 +4,7 @@ venv/
 .venv/
 
 # Model weights
-weights/*.h5
+weights/*.keras
 
 # Python cache
 __pycache__/
@@ -19,3 +19,4 @@ Thumbs.db
 
 *.jpg
 *.png
+data/

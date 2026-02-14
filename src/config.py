@@ -16,7 +16,7 @@ MASKS_DIR = "masks"
 
 # Output
 WEIGHTS_DIR = "weights"
-MODEL_PATH = "weights/model.h5"
+MODEL_PATH = "weights/model.keras"
 
 # Model settings
 NUM_CLASSES = 1          # binary segmentation
